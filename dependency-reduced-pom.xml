@@ -4,7 +4,7 @@
   <groupId>clarion.performance</groupId>
   <artifactId>clarion.performance</artifactId>
   <name>Clarion Load Performance Test</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <build>
     <defaultGoal>clean install</defaultGoal>
     <plugins>

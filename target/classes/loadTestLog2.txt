@@ -1,4 +1,0 @@
-DEBUG - Company retreiving took: 4 s, 106 ms 
-
-DEBUG - Company retreiving took: 6 s, 577 ms 
-

@@ -1,6 +1,5 @@
 package com.wolterskluwer.dd.common.dao.impl;
 
-import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.wolterskluwer.dd.common.dao.GenericDao;
 import com.wolterskluwer.dd.common.datasource.mongo.MongoDBDataSource;

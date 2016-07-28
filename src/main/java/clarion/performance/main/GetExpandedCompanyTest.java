@@ -90,12 +90,11 @@ public class GetExpandedCompanyTest implements Runnable {
         company.setCustomers(new ArrayList<CustomerRelationship>());
         company.setSuppliers(new ArrayList<SupplierRelationship>());
         company.setPartners(new ArrayList<PartnerRelationship>());
-                
-//        Map<String, Document> relCompanyDocs = companyDAO.getCompaniesByIds(refCompanyIds);
+                        
         String[] expandsArray = {CompanyFields.FOCUS_SECTOR_EXPAND, CompanyFields.HOME_REGION_EXPAND};
         List<String> relExpands = new ArrayList<>(Arrays.asList(expandsArray));
         for(String cId : refCompanyIds) {
-        	Document companyDoc = companyDAO.getDocumentById(cId, CompanyFields.COMPANY_ID);
+        	Document companyDoc = companyDAO.getDocumentById(cId, CompanyFields.COMPANY_ID);        	
         	Company rCompany = companyParser.parseEntity(companyDoc, relExpands);
         	Document relDoc = relationships.get(cId);
         	List<Document> relItems = (ArrayList<Document>)relDoc.get(RelationshipsFields.RELATIONSHIPS);
@@ -114,20 +113,7 @@ public class GetExpandedCompanyTest implements Runnable {
                 }
         	}        	
         }                
-    }
-	
-	private void fillCompaniesForRelationships(List<? extends CompanyRelationship> relList, Map<String, Document> relCompanyDocs) {
-        String[] expandsArray = {CompanyFields.FOCUS_SECTOR_EXPAND, CompanyFields.HOME_REGION_EXPAND};
-        List<String> relExpands = new ArrayList<>(Arrays.asList(expandsArray));
-        for(int i = 0; i < relList.size(); i++) {
-            CompanyRelationship relationship = relList.get(i);
-            Document relCompanyDoc = relCompanyDocs.get(relationship.getCompany().getId());
-            if(relCompanyDoc != null) {
-            	Company relatedCompany = companyParser.parseEntity(relCompanyDoc, relExpands);
-            	relationship.setCompany(relatedCompany);
-            }            
-        }
-    }	
+    }			
 
 	@Override
 	public void run() {

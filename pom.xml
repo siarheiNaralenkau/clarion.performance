@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clarion.performance</groupId>
   <artifactId>clarion.performance</artifactId>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <name>Clarion Load Performance Test</name>
   
   <build>
