@@ -1,0 +1,17 @@
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\consts\RegionFields.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\beans\CompanyRelationshipIndex.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\parsers\CompanyParserFactory.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\dao\impl\GenericDaoImpl.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\dao\impl\CompanyDAOImpl.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\consts\MongoKeywords.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\clarion\performance\main\TestMongoPerfomance.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\comparators\CompanySectorRevenueComparator.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\consts\RelationshipsFields.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\consts\CompanyFields.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\parsers\CompanyParser.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\dao\CompanyDAO.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\datasource\mongo\MongoDBDataSource.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\consts\CompanySectorFields.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\dao\GenericDao.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\com\wolterskluwer\dd\common\datasource\DeepDiligenceDataSource.java
+D:\Development\WoltersKluwer\WKL-GLA\clarion.performance\src\main\java\clarion\performance\main\GetExpandedCompanyTest.java

@@ -1,0 +1,17 @@
+com\wolterskluwer\dd\common\consts\RegionFields.class
+com\wolterskluwer\dd\common\parsers\CompanyParser.class
+com\wolterskluwer\dd\common\parsers\CompanyParserFactory.class
+com\wolterskluwer\dd\common\comparators\CompanySectorRevenueComparator.class
+clarion\performance\main\GetExpandedCompanyTest.class
+com\wolterskluwer\dd\common\consts\RelationshipsFields.class
+com\wolterskluwer\dd\common\consts\CompanyFields.class
+com\wolterskluwer\dd\common\datasource\mongo\MongoDBDataSource.class
+com\wolterskluwer\dd\common\dao\CompanyDAO.class
+com\wolterskluwer\dd\common\dao\impl\GenericDaoImpl.class
+com\wolterskluwer\dd\common\dao\GenericDao.class
+com\wolterskluwer\dd\common\beans\CompanyRelationshipIndex.class
+com\wolterskluwer\dd\common\consts\MongoKeywords.class
+clarion\performance\main\TestMongoPerfomance.class
+com\wolterskluwer\dd\common\dao\impl\CompanyDAOImpl.class
+com\wolterskluwer\dd\common\datasource\DeepDiligenceDataSource.class
+com\wolterskluwer\dd\common\consts\CompanySectorFields.class
